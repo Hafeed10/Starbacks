@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Ubuntu:ital,wght@0,500;0,700;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #header section */
+#header{
+    width: 100%;
+    height: 100vh;
+}
+#header section  .wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+} 
+#header nav{
+    overflow: hidden;
+    text-align: center;
+}
+#header  ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header img {
+  width: 100px;
+  height: 100%;
+}
+#header ul li{
+  list-style: none;
+  font-weight: 300;
+}
+#header .active a{
+  border-bottom: 3px solid rgb(4, 70, 26);
+}
+#header .active{
+  border-bottom:3px solid rgb(4, 74, 26);
+}
+#header ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-family:monospace;
+    font-size: 17px;
+   
+}
+#header ul li a:hover{
+    border-bottom: 3px solid rgb(2, 76, 30);
+}
+#header input{
+    width: 250px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color:rgb(144, 142, 142);
+}
+#header .person{
+    font-size: 50px;
+    margin-right: 40px;
+    cursor: zoom-in;
+}
+#header .person:last-child{
+    margin-right:0 ;
+}
+/* #header section */
+
+
+/* The Main section full powe  */
+#main{
+    width: 100%;
+    height: 10vh;
+    padding: auto;
+    background-color: rgb(1, 27, 12);
+    border: 4px solid #d6cfcf;
+}
+.class{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.class button{
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    border-color:#fff ;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(1, 27, 12);
+}
+.class h1{
+    color: #fff;
+    font-size: 20px;
+    font-family: monospace;
+}
+/* The Main section full powe  */
+
+
+/* The #know full power */
+#know {
+    padding: 40px;
+}
+#know h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#know .food{
+    padding-top: 30px;
+}
+#know .food ul li img{
+   padding: 5px;
+   text-align: center;
+   width: 40%;
+   border-radius: 50%;
+   transition: all 0.2s ease;
+}
+#know .food ul li img:hover{
+    border: 2.5px solid rgb(17, 164, 204);
+    transition: all 0.4s ease;
+}
+.food p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.loop{
+    margin-left: 30px;
+}
+.loop1{
+   margin-left: 15px;
+}
+.loop2{
+    margin-left: 17px;
+ }
+ .loop8{
+    margin-right:10px ;
+ }
+
+.margin{
+   margin-top: 50px;
+}
+.margin .w3-content img{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.w3-content{
+   border-radius: 20px;
+   background-image: url('/image/12951_Starbucks-drink-in-a-cold-Autumn-day-Pumpkin-pie.jpg');
+   background-position: center;
+   background-size: cover;
+}
+.w3-center button{
+    padding: 6px;
+    margin-left: 15px;
+    background-color: rgb(32, 64, 62);
+    color: #fff;
+    font-weight: bold;
+}
+.mySlides img{
+    border-radius: 10px;
+}
+/* The #know full power */
+
+
+
+/* The divo full finishig */
+.divo{
+    width: 100%;
+    height: 80vh;
+    margin-top: 100px;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+.row {
+    margin: 0 -5px
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.card img{
+    border-radius: 20px;
+}
+.column .card h1{
+    font-size: 25px;
+    font-family: monospace;
+}
+.column .card button{
+    padding: 5px;
+    width: 80px;
+    border: none;
+    background-color: rgb(7, 71, 35);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.colp{
+    text-align: start;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.w3-section{
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* The divo full finishig */
+
+
+
+/* The home footer section full style  */
+.home{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(1, 25, 16);
+}
+.home a {
+    padding: 10px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home .home-section{
+    display: inline-block;
+}
+.home  .afa1 img {
+    width: 50%;
+}
+.about a{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  text-decoration: none;
+  margin-left: 100px;
+}
+.about a:hover{
+    color: rgb(165, 160, 160);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.oure {
+    font-size: 20px;
+    font-weight: bold;
+}
+.oure1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.oure2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.name{
+    color: #fff;
+    text-align: end;
+    margin-left: 60px;
+    font-size: 50px;
+}
+.style{
+    border-bottom: 1px solid #514e4e;
+}
+.copy {
+    float: left;
+    text-align: center;
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    font-size: 30px;
+}
+/* The home footer section full style  */
+
+
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+ 
+@media all and (max-width:1440px){
+    #main{
+        height: 17vh;
+    }
+    .loop{
+        margin-right:40px;
+    }
+}
+@media all and (max-width:1024px){
+    #main{
+        height: 17vh;
+    }
+    #know .food ul li img{
+        width: 100px;
+    }
+    .name{
+        font-size: 28px;
+    }
+}
+@media all and (max-width:960px){
+    .about a{
+        font-size: 15px;
+    }
+    .name{
+        font-size: 20px;
+    }
+}
+@media all and (max-width:768px){
+    #main{
+        height: 17vh;
+    }
+    .home{
+        width: 100%;
+        height: 85vh;
+    }
+    .name{
+        font-size: 35px;
+    }
+    .about a{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .home{
+        margin-top: 500px;
+    }
+  }
+@media all and (max-width:480px){
+    #main{
+        height: 12vh;
+    }
+    #header  ul{
+        flex-wrap: wrap;
+    }
+    #header input{
+      display: block;
+      display: none;
+    }
+    #know h1{
+        font-size: 30px;
+        text-align: center;
+    }
+   .class h1{
+       font-size: 17px;
+   }
+   .divo{
+    height: 100vh;
+   }
+   .home{
+    width: 100%;
+    height: 135vh;
+   }
+}
+@media all and (max-width:320px){
+    #main{
+        height: 14vh;
+    }
+    #header ul li a{
+        padding: 4px;
+    }
+    #header img {
+        height: 80px;
+    }
+    .class button{
+        width: 70%;
+    }
+    #header ul li a{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    #know .food ul li img{
+        width: 100px;
+    }
+    .home{
+        height: 150vh;
+    }
+    .copy{
+        margin-right: 400px;
+    }
+}

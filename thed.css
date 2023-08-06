@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* The heder section */
+header nav {
+   border-bottom:2px solid rgb(236, 231, 231) ;
+   box-shadow: 0 0 3px;
+}
+header ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+}
+header .active a{
+    border-bottom: 3px solid rgb(4, 70, 26);
+}
+header .active{
+    border-bottom:3px solid rgb(4, 74, 26);
+}
+header ul li a:hover{
+    border-bottom:3px solid rgb(4, 74, 26);
+}
+header ul li a{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 17px;
+    color: black;
+}
+header input{
+    padding: 10px;
+    border-radius: 50px;
+    border-color:red ;
+}
+header .person{
+    font-size: 50px;
+}
+/* The heder section */
+
+/* h1 */
+h1{
+    font-size: 16px;
+    padding: 25px;
+    font-family: monospace;
+}
+/* h1 */
+
+
+/* The #main full powe finshe */
+#main{
+    width: 35%;
+    height: 90vh;
+    background:linear-gradient(rgb(0, 0, 0),rgb(8, 27, 48));
+    margin-left: 56px;
+}
+#main .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+#main .right{
+    padding: 30px;
+    display: block;
+}
+#main .right input{
+    width: 400px;
+    padding: 9px;
+    border-radius: 50px;
+    border: none;
+}
+#main .right p{
+    color: #fff;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+} 
+.section-card{
+   background-color: rgb(204, 196, 196);
+   padding: 10px ;
+   border-radius: 10px;
+   margin-top: 10px;
+}
+.row{
+    display: flex;
+}
+.card img{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+h3{
+    color: #1c1a1a;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.section-card .card button{
+    padding: 7px;
+    font-size: 12px;
+    border-radius: 50px;
+    border: none;
+    background-color: green;
+    color: #ffffff;
+    font-weight: bold;
+}
+.section-card .card button:hover{
+    border: none;
+    background-color: rgb(13, 101, 10);
+}
+.left .map{
+    width: 840px;
+    margin-left: 120px;
+}
+/* The #main full powe finshe */
+
+
+
+@media all and (max-width:1440px){
+    #main{
+        height: 100vh;
+    }
+}
+@media all and (max-width:1024px){
+     #main{
+        width: 90%;
+     }
+     .row{
+        display: flex;
+        flex-wrap: wrap;
+     }
+    .section-card{
+        width: 400px;
+        margin-left: 250px
+    }
+    #main .right input{
+      
+        margin-left: 250px;
+    }
+    #main .right p{
+        text-align: center;
+    }
+    .left .map{
+        width: 190%;
+        margin-top: 10px;
+    }
+}
+@media all and (max-width:786px){
+    .left .map{
+        width: 600px;
+        height: 80vh;
+    }
+    .section-card{
+        width: 400px;
+        margin-left: 150px
+    }
+    #main .right input{
+      
+        margin-left: 150px;
+    }
+    #main .right p{
+        text-align: center;
+    }
+}
+@media all and (max-width:480px){
+    header input{
+        display: none;
+    }
+    #main{
+        width: 80%;
+    }
+    .section-card{
+        width: 100%;
+        margin: 10px auto;
+    }
+    #main .right input{
+        width: 100%;
+        margin-left: 0;
+    }
+    #main .right p{
+        text-align: start;
+    }
+    .left .map{
+        width: 300px;
+        height: 60vh;
+        margin: 10px;
+    }
+    .card{
+        width: 100%;
+    }
+}
+@media all and (max-width:320px){
+    .left .map{
+        width: 70%;
+        height: 50vh;
+    }
+    header ul li a{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    header .person{
+        font-size: 24px;
+    }
+}
